@@ -30,9 +30,9 @@
     <?php
         //print the calculation and answer if the variables are set by the form
         if (isset($x1) && isset($x2)) {
-            $x3 = $x1 + $x2;
+            $sum = $x1 + $x2;
             echo "<p> <strong>Result:</strong></p>";
-            echo "<p> $x1 + $x2 = $x3</p>";
+            echo "<p> $x1 + $x2 = $sum</p>";
         }
     ?>
 </body>
